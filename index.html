@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samreen's Collection | Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="myHeader">
+        <a href="#home" class="logo" aria-label="Samreen's Collection home">
+            <span class="logo-mark">SC</span>
+            <span class="logo-text">
+                <strong>SAMREEN'S</strong>
+                <small>COLLECTION</small>
+            </span>
+        </a>
+
+        <nav class="menu" id="myMenu">
+            <a href="#home">Home</a>
+            <a href="#clothing">Clothing</a>
+            <a href="#bracelets">Bracelets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">Premium modest wear & customized jewels</p>
+                <h1>Samreen's Collection</h1>
+                <p class="hero-copy">Handpicked outfits for every occasion. Customized bracelets crafted just for you.</p>
+                <div class="hero-actions">
+                    <a href="#clothing" class="btn">Shop Clothing</a>
+                    <a href="#bracelets" class="btn btn-outline">View Bracelets</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLOTHING SECTION -->
+        <section class="section" id="clothing">
+            <div class="section-heading">
+                <p class="eyebrow">Curated for you</p>
+                <h2>The Wardrobe</h2>
+            </div>
+
+            <!-- FILTER BUTTONS -->
+            <div class="filter-bar">
+                <button class="filter-btn active" onclick="filterCards('all', this)">All</button>
+                <button class="filter-btn" onclick="filterCards('unstitched', this)">Unstitched</button>
+                <button class="filter-btn" onclick="filterCards('stitched', this)">Stitched</button>
+                <button class="filter-btn" onclick="filterCards('regalia', this)">Regalia</button>
+                <button class="filter-btn" onclick="filterCards('mixedbrands', this)">Mixed Brands</button>
+            </div>
+
+            <div class="cards-container" id="clothingGrid">
+
+                <!-- ══ REGALIA UNSTITCHED (suit1-8) ══ -->
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit1.jpg" alt="Regalia Suit 1">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit2.jpg" alt="Regalia Suit 2">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit3.jpg" alt="Regalia Suit 3">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit4.jpg" alt="Regalia Suit 4">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit5.jpg" alt="Regalia Suit 5">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit6.jpg" alt="Regalia Suit 6">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit7.jpg" alt="Regalia Suit 7">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched regalia">
+                    <img src="images/clothes/unstitched/regalia/suit8.jpg" alt="Regalia Suit 8">
+                    <div class="card-text">
+                        <span class="tag">Regalia</span>
+                        <h3>Regalia Unstitched Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <!-- ══ MIXED BRANDS UNSTITCHED (suit9-20) ══ -->
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit9.jpg" alt="Mixed Brand Suit 9">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Lawn Unstitched Suit</h3>
+                        <p>Rs. 2,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit10.jpg" alt="Mixed Brand Suit 10">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Lawn Unstitched Suit</h3>
+                        <p>Rs. 2,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit11.jpg" alt="Mixed Brand Suit 11">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Printed Lawn Suit</h3>
+                        <p>Rs. 2,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit12.jpg" alt="Mixed Brand Suit 12">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Embroidered Suit</h3>
+                        <p>Rs. 3,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit13.jpg" alt="Mixed Brand Suit 13">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Chiffon Suit</h3>
+                        <p>Rs. 3,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit14.jpg" alt="Mixed Brand Suit 14">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Cotton Suit</h3>
+                        <p>Rs. 2,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit15.jpg" alt="Mixed Brand Suit 15">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Festive Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit16.jpg" alt="Mixed Brand Suit 16">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Silk Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit17.jpg" alt="Mixed Brand Suit 17">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Khaddar Suit</h3>
+                        <p>Rs. 2,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit18.jpg" alt="Mixed Brand Suit 18">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Linen Suit</h3>
+                        <p>Rs. 2,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit19.jpg" alt="Mixed Brand Suit 19">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Digital Print Suit</h3>
+                        <p>Rs. 4,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="unstitched mixedbrands">
+                    <img src="images/clothes/unstitched/mixedbrands/suit20.jpg" alt="Mixed Brand Suit 20">
+                    <div class="card-text">
+                        <span class="tag">Unstitched</span>
+                        <h3>Embroidered Suit</h3>
+                        <p>Rs. 4,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <!-- ══ STITCHED (suit21-30) ══ -->
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit21.jpg" alt="Stitched Suit 21">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Ready to Wear Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit22.jpg" alt="Stitched Suit 22">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Ready to Wear Suit</h3>
+                        <p>Rs. 3,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit23.jpg" alt="Stitched Suit 23">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Casual Pret Suit</h3>
+                        <p>Rs. 4,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit24.jpg" alt="Stitched Suit 24">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Casual Pret Suit</h3>
+                        <p>Rs. 4,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit25.jpg" alt="Stitched Suit 25">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Festive Pret Suit</h3>
+                        <p>Rs. 4,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit26.jpg" alt="Stitched Suit 26">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Festive Pret Suit</h3>
+                        <p>Rs. 4,500</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit27.jpg" alt="Stitched Suit 27">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Embroidered Pret Suit</h3>
+                        <p>Rs. 5,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit28.jpg" alt="Stitched Suit 28">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Embroidered Pret Suit</h3>
+                        <p>Rs. 5,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit29.jpg" alt="Stitched Suit 29">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Party Wear Suit</h3>
+                        <p>Rs. 5,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="card" data-cat="stitched">
+                    <img src="images/clothes/stitched/suit30.jpg" alt="Stitched Suit 30">
+                    <div class="card-text">
+                        <span class="tag">Stitched</span>
+                        <h3>Party Wear Suit</h3>
+                        <p>Rs. 5,000</p>
+                        <button class="btn-small">Order Now</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- BRACELETS SECTION -->
+        <section class="section accent-section" id="bracelets">
+            <div class="section-heading">
+                <p class="eyebrow">Personalized jewels</p>
+                <h2>Custom Bracelets</h2>
+            </div>
+
+            <div class="bracelet-intro">
+                <div>
+                    <h3>Your Name, Your Vibe</h3>
+                    <p>Customize your look with premium anti-tarnish bracelets — bead, charm, and personalized name bracelets. Perfect for gifts, birthdays, bridesmaids, or a little treat for yourself.</p>
+                </div>
+                <ul class="simple-list">
+                    <li><i class="fa-solid fa-check"></i> Anti-tarnish material</li>
+                    <li><i class="fa-solid fa-check"></i> Bead & charm styles</li>
+                    <li><i class="fa-solid fa-check"></i> Fully customizable</li>
+                    <li><i class="fa-solid fa-check"></i> Gift packaging available</li>
+                </ul>
+            </div>
+
+            <div class="cards-container bracelet-grid">
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet1.jpg" alt="Bracelet 1">
+                    <div class="card-text">
+                        <span class="tag">Bead</span>
+                        <h3>Bead Bracelet</h3>
+                        <p>Rs. 300</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet2.jpg" alt="Bracelet 2">
+                    <div class="card-text">
+                        <span class="tag">Bead</span>
+                        <h3>Bead Bracelet</h3>
+                        <p>Rs. 350</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet3.jpg" alt="Bracelet 3">
+                    <div class="card-text">
+                        <span class="tag">Charm</span>
+                        <h3>Charm Bracelet</h3>
+                        <p>Rs. 400</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet4.jpg" alt="Bracelet 4">
+                    <div class="card-text">
+                        <span class="tag">Charm</span>
+                        <h3>Charm Bracelet</h3>
+                        <p>Rs. 400</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet5.jpg" alt="Bracelet 5">
+                    <div class="card-text">
+                        <span class="tag">Customized</span>
+                        <h3>Custom Name Bracelet</h3>
+                        <p>Rs. 450</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet6.jpg" alt="Bracelet 6">
+                    <div class="card-text">
+                        <span class="tag">Customized</span>
+                        <h3>Custom Name Bracelet</h3>
+                        <p>Rs. 450</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet7.jpg" alt="Bracelet 7">
+                    <div class="card-text">
+                        <span class="tag">Bead</span>
+                        <h3>Bead Bracelet</h3>
+                        <p>Rs. 500</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+                <article class="card bracelet-card">
+                    <img src="images/bracelets/bracelet8.jpg" alt="Bracelet 8">
+                    <div class="card-text">
+                        <span class="tag">Charm</span>
+                        <h3>Charm Bracelet</h3>
+                        <p>Rs. 500</p>
+                        <button class="btn-small">Customize</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">Order details</p>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-box">
+                <p>Drop us a message for orders, sizes, colors, or bracelet customization.</p>
+                <div class="form">
+                    <input type="text" placeholder="Your Name" id="nameInput">
+                    <input type="text" placeholder="WhatsApp Number" id="phoneInput">
+                    <textarea placeholder="Your Message..." rows="4" id="msgInput"></textarea>
+                    <button class="btn" id="submitBtn">Send Message</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Samreen's Collection</h2>
+        <p>Follow us on Instagram @dazzlingdreamer.</p>
+        <p>&copy; 2026 All Rights Reserved.</p>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
